@@ -1,0 +1,112 @@
+{
+	"pages": [{
+            "path" : "pages/home/home",
+            "style" :                                                                                    
+            {
+                
+                "enablePullDownRefresh": true
+            }
+            
+        }
+        ,{
+            "path" : "pages/cart/cart",
+            "style" :                                                                                    
+            {
+                "enablePullDownRefresh": true
+            }
+            
+        }
+        ,{
+            "path" : "pages/cate/cate",
+            "style" :                                                                                    
+            {
+                "enablePullDownRefresh": true
+            }
+            
+        }
+        ,{
+            "path" : "pages/my/my",
+            "style" :                                                                                    
+            {
+                "enablePullDownRefresh": true
+            }
+            
+        }
+    ],
+	
+	"subPackages": [
+	 {
+	   "root": "subpkg",
+	   "pages": [{
+                    "path" : "goods_detail/goods_detail",
+                    "style" :                                                                                    
+                {
+                    "navigationBarTitleText": "",
+                    "enablePullDownRefresh": false
+                }
+                
+                }
+                ,{
+                    "path" : "goods_list/goods_list",
+                    "style" :                                                                                    
+                {
+                           "onReachBottomDistance": 150
+
+                    "enablePullDownRefresh": false
+                }
+                
+                }
+                ,{
+                    "path" : "search/search",
+                    "style" :                                                                                    
+                {
+                    "navigationBarTitleText": "",
+                    "enablePullDownRefresh": false
+                }
+                
+                }
+            ]
+	 }
+	],
+
+	
+	"tabBar": {
+		"selectedColor": "#C00000",//选中导航栏字体颜色
+	    "list": [
+	    	{
+	    		"pagePath": "pages/home/home",
+				"text": "首页",
+				"iconPath": "static/home.png",
+				"selectedIconPath": "static/home-a.png"
+	    	},
+				
+			{
+				"pagePath": "pages/cate/cate",
+				"text": "分类",
+				"iconPath": "static/cate.png",
+				"selectedIconPath": "static/cate-a.png"
+			},
+				{
+					"pagePath": "pages/cart/cart",
+					"text": "购物车",
+					"iconPath": "static/cart.png",
+					"selectedIconPath": "static/cart-a.png"
+					
+				},
+			{
+				"pagePath": "pages/my/my",
+				"text": "我的",
+				"iconPath": "static/user.png",
+				"selectedIconPath": "static/user-a.png"
+			}
+	    ]
+	},
+	"globalStyle": {
+	   "navigationBarTextStyle": "white",
+	   "navigationBarTitleText": "趣多多商城",
+	   "navigationBarBackgroundColor": "#c00000",
+	   "backgroundColor": "#fff"
+		
+	}
+	
+}
